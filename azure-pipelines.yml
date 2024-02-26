@@ -17,4 +17,5 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
     env  | grep -i java
+    ls /usr/lib/jvm/temurin-11-jdk-amd64
   displayName: 'Run a multi-line script'
